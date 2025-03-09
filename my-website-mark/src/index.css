@@ -1,0 +1,38 @@
+.card {
+  background-color: rgb(38, 38, 38);
+  border: solid 1px;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 5px 5px 5px #414141;
+  padding-top: 10%;
+  text-align: center;
+  display: block;
+}
+
+.card .card-image {
+  max-width: 60%;
+  max-height: auto;
+  border-radius: 5%;
+
+}
+
+.card .card-name {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  color: #ffffff;
+}
+
+.card .card-description {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+}
+.card .card-button{
+  font-family: Helvetica, Arial;
+  color: white;
+  width: 30%;
+  height: 10%;
+  border-radius: 5px;
+  background-color: #49b428;
+  border-color: rgb(0, 0, 0);
+}
