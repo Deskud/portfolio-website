@@ -1,14 +1,14 @@
-import Header from "./Header"
-import Footer from "./Footer"
-import Card from "./Card"
+import LoginRegister from "./Components/Login-Register/LoginRegister";
+
 function App() {
   return (
-    <>
-      <Header />
-      <Card />
-      <Footer />
-    </>
-  )
+   <div>
+    <LoginRegister>
+
+
+    </LoginRegister>
+   </div>
+  );
 }
 
 export default App
